@@ -95,7 +95,7 @@ func main() {
 
 	//ObjectIdFromHex Illustration
 
-	oidHex := "5e57d19ecd1148806cb80fb2"
+	oidHex := "XXXXXXXXXXXXXXXX"
 	if !bson.IsObjectIdHex(oidHex) {
 		fmt.Println("userID is not a valid hex")
 	}
